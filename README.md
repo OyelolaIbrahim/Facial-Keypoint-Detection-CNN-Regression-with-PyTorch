@@ -106,12 +106,6 @@ one (x, y) coordinate pair per keypoint.
 | Keypoints Detected | 67 per image |
 | Output Shape | (batch, 67, 2) |
 | Epochs | 5 |
-| Final Train Loss | [add from notebook output] |
-| Final Val Loss | [add from notebook output] |
-
-> Run the notebook and copy the final epoch 
-> `train_loss` and `val_loss` values printed 
-> by the training loop into the table above.
 
 ---
 
@@ -142,15 +136,3 @@ pip install -r requirements.txt
 jupyter notebook facial_keypoint.ipynb
 ```
 
-
-
-
-torch
-torchvision
-pandas
-numpy
-matplotlib
-pillow
-tqdm
-jupyter
-```
